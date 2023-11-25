@@ -428,7 +428,7 @@ nav.side-navbar .title p {
   font-size: 0.9em;
   font-weight: 200;
   margin-bottom: 0;
-  color: #aaa;
+  color: #ffffff;
 }
 
 nav.side-navbar span.heading {
@@ -441,10 +441,6 @@ nav.side-navbar span.heading {
 
 nav.side-navbar ul {
   padding: 15px 0;
-}
-
-nav.side-navbar ul li {
-  /* submenu item active */
 }
 
 nav.side-navbar ul li a {
@@ -630,16 +626,16 @@ nav.side-navbar.shrinked .sidebar-header .title {
 * ==========================================================
 */
 nav.navbar {
-  background-color: #032952;
-  background-image: linear-gradient(62deg, #032952 0%, #421573 50%, #033160 100%);
+  background-color: #ffffff;
+  background-image: linear-gradient(62deg, #ff09d2 0%, rgb(255, 223, 43) 50%, #ffacac 100%);
 
   padding-top: 3px;
   padding-bottom: 5px;
   color: #fff;
   position: relative;
   border-radius: 0;
-  -webkit-box-shadow: 2px 2px 2px #032952;
-  box-shadow: 2px 2px 2px #032952;
+  -webkit-box-shadow: 2px 2px 2px #ffffff;
+  box-shadow: 2px 2px 2px #ffffff;
   z-index: 10;
   padding-left: 0;
   padding-right: 0;
@@ -878,9 +874,6 @@ nav.navbar .dropdown-menu h3 {
 
 /* MAIN NAVBAR MEDIAQUERIES ----------------------------------- */
 @media (max-width: 1199px) {
-  nav.navbar {
-    /*==== Toggle Sidebar Btn ====*/
-  }
   nav.navbar .navbar-brand .brand-small {
     display: block !important;
   }
@@ -3157,7 +3150,7 @@ a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #3399ff !important;
 }
 
 a.bg-dark:focus,
